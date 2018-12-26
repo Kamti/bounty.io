@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .map {
+    position: absolute;
+  }
+  
+  .map__player {
+    position: absolute;
+    -webkit-transition: top 0.05s, left 0.05s;
+    transition: top 0.05s, left 0.05s;
+    transition-timing-function: linear;
+  }
+
+  .map__player.map__player--username-Seba circle {
+    fill: deepPink;
+  }
